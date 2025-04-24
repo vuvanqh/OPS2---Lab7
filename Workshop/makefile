@@ -2,7 +2,7 @@ CC=gcc
 C_FLAGS=-Wall -g -Wno-unused
 L_FLAGS=-fsanitize=address,undefined
 
-TARGET=sop-shop
+TARGET=prog
 FILES=${TARGET}.o
 
 .PHONY: clean all
